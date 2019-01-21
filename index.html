@@ -29,5 +29,13 @@
         {{/each}}
       </ul>
     </script>
+    <scipt id="author-partial-template" type="text/x-handlebars-template">
+      <section>
+        <header>
+          <h4>Created By: {{owner.login}}></h4>
+        </header>
+        <img src="{{owner.avater_url}}" height="32" width="32">
+      </section>
+    </scipt>
   </body>
 </html>
